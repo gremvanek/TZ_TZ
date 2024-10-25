@@ -6,4 +6,4 @@ from tz_app.app.models import Item
 class ItemSerializer(ModelSerializer):
     class Meta:
         model = Item
-        fields = '__all__'
+        fields = "__all__"
